@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formularz dla uczestników szkolenia</h3>
+ 
+    <form action="form.php" method="POST">
+            <label for="imie">Imię:</label><br>
+            <input type="text" name="imie" id="imie" required><br>
+
+            <label for="nazwisko">Nazwisko:</label><br>
+            <input type="text" name="nazwisko" id="nazwisko" required><br>
+
+            <label for="mail">email:</label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="tel">tel:</label><br>
+            <input type="tel" name="tel" id="tel" required><br>
+
+            <label for="miasto">Wybierz miasto:</label><br>
+            <select name="select">
+                <option value="value1">Kraków</option>
+                <option value="value2">Warszawa</option>
+                <option value="value3">Gdańsk</option>
+            </select>
+    </form>
+
+</body>
+</html>
