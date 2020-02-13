@@ -21,12 +21,23 @@
             <label for="tel">tel:</label><br>
             <input type="tel" name="tel" id="tel" required><br>
 
-            <label for="miasto">Wybierz miasto:</label><br>
+            <label for="miasto">Wybierz miasto:</label>
             <select name="select">
                 <option value="value1">Kraków</option>
                 <option value="value2">Warszawa</option>
                 <option value="value3">Gdańsk</option>
-            </select>
+            </select><br>
+
+            <p>Płeć uczestnika szkolenia
+                <input type= "radio" name="gender">Mężczyzna
+                <input type= "radio" name="gender">Kobieta<br>
+            </p>
+
+            <p>Zgoda na prfzetwarzanie danych osob owych<input  type= "checkbox" name="agreement"></p>
+            <label for="wiadomosc">Wiadomość:</label><br>
+            <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="wpisz wiadomość"></textarea>
+            <input type="submit">
+            
     </form>
 
 </body>
