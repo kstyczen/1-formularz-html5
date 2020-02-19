@@ -28,15 +28,22 @@
                 <option value="Gdańsk">Gdańsk</option>
             </select><br>
 
-            <p>Płeć uczestnika szkolenia
-                <input type= "radio" name="gender">Mężczyzna
-                <input type= "radio" name="gender">Kobieta<br>
-            </p>
-
-            <p>Zgoda na przetwarzanie danych osobowych<input  type= "checkbox" name="agreement"></p>
-            <label for="wiadomosc">Wiadomość:</label><br>
-            <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="wpisz wiadomość"></textarea>
-            <input type="submit">
+            <p>Płeć uczestnika szkolenia</p>
+            <label for="male">Mężczyzna</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <br>
+            <label for="female">Kobieta</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <br><br>
+            <label for="agreement">Zgoda na przetwarzanie danych osobowych  </label>
+            <input type="checkbox" id="agreement" name="agreement">
+            <br>
+            <br>
+            <label for="message">Wiadomość: </label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="wpisz wiadomość"></textarea>
+            <br>
+            <input type="submit" value="Send">
+          
             
     </form>
 
